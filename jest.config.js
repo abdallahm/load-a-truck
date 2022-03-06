@@ -4,7 +4,6 @@ module.exports = {
   testEnvironment: 'node',
   extensionsToTreatAsEsm: ['.ts'],
   globalSetup: '<rootDir>/jest.setup.ts',
-  // globalTeardown: '<rootDir>/jest.teardown.ts',
   globals: {
     'ts-jest': {
       useESM: true,
